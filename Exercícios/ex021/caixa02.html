@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Tags</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+        }
+
+        header{
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;         
+        }
+
+        header > div{
+            display: flex;
+            padding: 10px;
+            margin: 0;
+            
+        }
+
+        header>nav{
+            
+            align-items: center;
+            background-color: rgb(64, 73, 82);
+            padding: 7px;
+            margin: 0px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+            
+        }
+        
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 7px;
+            
+
+        }
+        
+        nav > a:hover{
+            background-color: rgb(88, 100, 112);
+
+        }
+
+        .arvore{
+            display: none;
+            background-color: black;
+        }
+              
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            font-weight: bold;
+            color: cadetblue;
+        }
+
+        footer{
+            background-color: rgb(88, 100, 112);
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+            color: #FFF;
+        }
+        footer > p{
+            margin: 0px;
+            font-size: 0.7em;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/max-logo.png" alt="logomax">
+            <h1>Maxwell Morais</h1>
+            
+        </div>
+        <nav>
+            <a href="#">Árvore da Família
+                <ul class="arvore">
+                    <li><a href="#">Raimundo</a></li>
+                    <li><a href="#">Maria Eugênia</a></li>
+                    <ul>Filhos
+                        <li>Márcia</li>
+                        <li>Ricardo</li>
+                        <li>Valéria</li>
+                        <li>Vânia</li>
+                        <li>Renato</li>
+                        <a href="#">Netos</a>
+                    </ul> 
+                </ul>
+            </a>
+            <a href="#">Hisória </a>
+            <a href="#">Fotos</a>
+            <a href="#">Membros</a>
+            <a href="#">Documentos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam animi, nostrum ipsum quos magnam odio ullam beatae laboriosam explicabo, nemo dolorum officiis sed commodi vitae culpa eveniet fugit, molestias delectus?</p>
+                <aside>
+                    <p>Artigo escrito por Maxwell Morais</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados - Maxwell Morais ®</p>
+    </footer>
+</body>
+</html>

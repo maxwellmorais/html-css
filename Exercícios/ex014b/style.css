@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: lightcoral;
+    background-color: gainsboro;
+}
+h2 {
+    color: lightseagreen;    
+}
+p {
+    text-align: justify;
+}

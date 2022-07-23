@@ -1,0 +1,30 @@
+@charset (UTF-8)
+
+body{
+    font: itali
+    text-align: justify;
+    /* Medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    16px geralmente = 1 em
+
+    recomendação oficial w3c: px ou em (vamos usar em)
+    */
+    font-size: 1em;
+    font-weight: normal ;
+    font-style: normal;
+    text-decoration:dashed ;
+    /* pesos literais: lighter, normal, bold, bolder
+       pesos em medids: 100 - 900 
+    */
+}
+h1{
+    
+    /* shorthand font
+    
+    - font-style -> fibt-weight -> font-size -> font-family*/
+    font: italic bolder 2em 'Work Sans', sans-serif;
+}
